@@ -7,3 +7,4 @@ Also ensure that you are authenticated through default authentication with gclou
 
 # Play
 Modify the code to create cards, perform transactions, and watch your firebase database update in real time.
+Firebase's built in transaction method allows for atomic writes to the database so you may spawn multiple processes to conduct thread-safe transactions.

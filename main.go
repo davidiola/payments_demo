@@ -20,10 +20,6 @@ type Card struct {
 	Limit   int
 }
 
-type TestJson struct {
-	field int
-}
-
 func checkTransaction(t Transaction, client *db.Client, ctx context.Context) bool {
 
 	//to check a transaction we retrieve the card based upon its cardID, check if balance + transactionAmount <= Limit, if so
